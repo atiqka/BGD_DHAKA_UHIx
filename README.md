@@ -172,6 +172,3 @@ If you use this script in research or operational applications, please cite this
  
 ---
  
-## License
- 
-This project is released under the MIT License.
