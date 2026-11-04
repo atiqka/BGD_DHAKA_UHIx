@@ -1,2 +1,2 @@
 # BGD_DHA
-Dhaka Heat Index
+Heat Index of the Dhaka Metropolitan Area (DMA) 
