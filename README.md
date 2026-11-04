@@ -2,9 +2,12 @@
  
 ## Overview
  
-This Google Earth Engine (GEE) script, developed by Atiq Kainan Ahmed, generates seasonal Urban Heat Index (UHIx) composites for Dhaka City, Bangladesh, using Landsat 9 Collection 2 Level-2 data. The workflow estimates heat stress conditions by combining land surface temperature (LST) and a proxy for relative humidity derived from the Normalized Difference Vegetation Index (NDVI).
+This Google Earth Engine (GEE) script, developed by Atiq Kainan Ahmed, generates seasonal Urban Heat Index (UHIx) composites for Dhaka City, Bangladesh, using Landsat 9 Collection 2 Level-2 data. The workflow estimates heat-stress conditions by combining land surface temperature (LST) with a proxy for relative humidity derived from the Normalized Difference Vegetation Index (NDVI).
  
 The script produces mean seasonal UHIx maps for 2024 and exports them as GeoTIFF files to Google Drive for further analysis and visualization.
+
+Output maps in app can be viewed here: https://atiq-project-july2025.projects.earthengine.app/view/lc09dmauhix-2024-seasonal
+
  
 ---
  
