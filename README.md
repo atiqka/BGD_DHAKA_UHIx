@@ -2,7 +2,7 @@
  
 ## Overview
  
-This Google Earth Engine (GEE) script generates seasonal Urban Heat Index (UHIx) composites for Dhaka City, Bangladesh, using Landsat 9 Collection 2 Level-2 data. The workflow estimates heat stress conditions by combining land surface temperature (LST) and a proxy for relative humidity derived from the Normalized Difference Vegetation Index (NDVI).
+This Google Earth Engine (GEE) script, developed by Atiq Kainan Ahmed, generates seasonal Urban Heat Index (UHIx) composites for Dhaka City, Bangladesh, using Landsat 9 Collection 2 Level-2 data. The workflow estimates heat stress conditions by combining land surface temperature (LST) and a proxy for relative humidity derived from the Normalized Difference Vegetation Index (NDVI).
  
 The script produces mean seasonal UHIx maps for 2024 and exports them as GeoTIFF files to Google Drive for further analysis and visualization.
  
@@ -152,8 +152,8 @@ Low values indicate relatively cooler conditions, while higher values represent 
  
 ## Author
  
-**Atiq K. A.**
-Researcher in Climate, Health, and Humanitarian Analytics
+** Atiq Kainan Ahmed **
+Email: atiqka@yahoo.com
  
 GitHub: https://github.com/atiqka
  
@@ -161,7 +161,7 @@ GitHub: https://github.com/atiqka
  
 ## Citation
  
-If you use this script in research or operational applications, please cite the repository and acknowledge:
+If you use this script in research or operational applications, please cite this author and repository and acknowledge:
  
 - Google Earth Engine
 - Landsat 9 Collection 2 Level-2 Products
@@ -172,28 +172,3 @@ If you use this script in research or operational applications, please cite the 
 ## License
  
 This project is released under the MIT License.
-A nice next step would be to rename script.js to something more descriptive, such as:
-
-
-
-dhaka_uhix_seasonal_landsat9_2024.js
-so that the repository looks more professional and is easier for others (and future you) to understand.
-
-
-
-
-
-
-
-Make the README more concise
-
-Add a limitations section
-
-Add a usage section with GEE steps
-
-
-
-Message Copilot
-
-AI-generated content may be incorrect
-
