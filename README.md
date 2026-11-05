@@ -1,5 +1,6 @@
 # Seasonal Urban Heat Index (UHIx) Mapping for Dhaka City Using Google Earth Engine
 
+Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
  
 ## Overview
  
