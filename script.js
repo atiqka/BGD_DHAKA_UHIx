@@ -1,9 +1,9 @@
-// 1. Load Dhaka City boundary
+// Load Dhaka City boundary
 var dhakaCity = ee.FeatureCollection('users/atiqka/DMA');
 Map.centerObject(dhakaCity, 11);
 Map.addLayer(dhakaCity, {color: 'black'}, 'Dhaka City Boundary');
 
-// 2. Define seasons and their month ranges (client-side)
+// Define seasons and their month ranges (client-side)
 var seasonDefs = {
   'Winter': ['12', '01', '02'],
   'Pre-monsoon': ['03', '04', '05'],
@@ -11,7 +11,7 @@ var seasonDefs = {
   'Post-monsoon': ['10', '11']
 };
 
-// 3. UHIx computation function
+// UHIx computation function
 var computeUHIx = function(image) {
   var tempC = image.select('ST_B10')
     .multiply(0.00341802).add(149.0).subtract(273.15)
@@ -31,7 +31,7 @@ var computeUHIx = function(image) {
   return heatIndex.set('system:time_start', image.get('system:time_start'));
 };
 
-// 4. Loop through seasons client-side
+// Loop through seasons client-side
 Object.keys(seasonDefs).forEach(function(seasonName) {
   var months = seasonDefs[seasonName];
 
