@@ -43,7 +43,7 @@ Object.keys(seasonDefs).forEach(function(seasonName) {
     var start = ee.Date(yearStr.cat('-').cat(month).cat('-01'));
     var end = start.advance(1, 'month');
 
-    return ee.ImageCollection('LANDSAT/LC09/C02/T1_L2')  // ✅ Landsat 9
+    return ee.ImageCollection('LANDSAT/LC09/C02/T1_L2')  // Landsat 9
       .filterBounds(dhakaCity)
       .filterDate(start, end)
       .filter(ee.Filter.lt('CLOUD_COVER', 20))
@@ -76,8 +76,8 @@ Object.keys(seasonDefs).forEach(function(seasonName) {
   });
 
   // Confirmation message
-  print('✅ Export task created for ' + seasonName + ' UHIx composite (2024).');
-  print('📁 File will be saved to Google Drive in folder: "EarthEngineExports"');
-  print('📝 File name: Dhaka_UHIx_' + seasonName + '_Mean_2024.tif');
+  print('Export task created for ' + seasonName + ' UHIx composite (2024).');
+  print('File will be saved to Google Drive in folder: "EarthEngineExports"');
+  print('File name: Dhaka_UHIx_' + seasonName + '_Mean_2024.tif');
 });
 
