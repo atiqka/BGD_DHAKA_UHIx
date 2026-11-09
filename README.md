@@ -88,7 +88,7 @@ For winter, December 2023 is combined with January-February 2024 to create the s
  
 ---
  
-## Processing Workflow
+## Workflow
  
 1. Load Dhaka City boundary.
 2. Filter Landsat 9 imagery:
@@ -155,24 +155,6 @@ Low values indicate relatively cooler conditions, while higher values represent 
  
 ---
  
-## Author
- 
-** Atiq Kainan Ahmed **
-Email: atiqka@yahoo.com
- 
-GitHub: https://github.com/atiqka
- 
----
- 
-## Citation
- 
-If you use this script in research or operational applications, please cite this author and repository and acknowledge:
- 
-- Google Earth Engine
-- Landsat 9 Collection 2 Level-2 Products
-- Dhaka Metropolitan Area boundary dataset
- 
----
 
 ## License
 
