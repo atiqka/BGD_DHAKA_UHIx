@@ -8,7 +8,7 @@ This Google Earth Engine (GEE) script, developed by Atiq Kainan Ahmed, generates
  
 The script produces mean seasonal UHIx maps for 2024 and exports them as GeoTIFF files to Google Drive for further analysis and visualization.
 
-Output maps can be viewed here: https://atiq-project-july2025.projects.earthengine.app/view/lc09dmauhix-2024-seasonal
+Output maps are shown here: https://atiq-project-july2025.projects.earthengine.app/view/lc09dmauhix-2024-seasonal
 
  
 ---
@@ -116,14 +116,7 @@ The workflow generates four seasonal UHIx raster datasets:
 - Dhaka_UHIx_Monsoon_Mean_2024_LC09.tif
 - Dhaka_UHIx_Post-monsoon_Mean_2024_LC09.tif
  
-All outputs are exported to:
- 
-```
-EarthEngineExports
-```
- 
-Google Drive folder.
- 
+
 ---
  
 ## Visualization
